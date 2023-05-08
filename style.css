@@ -13,11 +13,15 @@ body {
   .fashion{
     background-color: rgb(168, 214, 42);
     padding: 2vw;
-
     border-radius: 20px;
     margin-top: 2rem;
     box-shadow: 1px 1px 15px 1px rgba(0, 0, 0, 0.486);
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+justify-content: ;
 
   }
   
@@ -29,7 +33,7 @@ body {
   }
   
   form {
-    max-width: 500px;
+    max-width: 2vw;
     margin: 0 auto;
   }
   
@@ -56,7 +60,7 @@ body {
   }
   
   #resultado {
-    max-width: 500px;
+    max-width: 400px;
     margin: 20px auto;
     text-align: center;
     font-weight: bold;
