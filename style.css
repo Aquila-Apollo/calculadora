@@ -1,0 +1,64 @@
+@charset "UTF-8";
+body {
+    font-family:monospace;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(77, 68, 68);
+    font-size: 1rem;
+  }
+  .fashion{
+    background-color: rgb(168, 214, 42);
+    padding: 2vw;
+
+    border-radius: 20px;
+    margin-top: 2rem;
+    box-shadow: 1px 1px 15px 1px rgba(0, 0, 0, 0.486);
+
+
+  }
+  
+  h1 {
+    text-align: center;
+    color: #ffffff;
+    border-bottom:3px solid black;
+    
+  }
+  
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    justify-content: center;
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  input[type="button"] {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #1e90ff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #resultado {
+    max-width: 500px;
+    margin: 20px auto;
+    text-align: center;
+    font-weight: bold;
+  }
+  
